@@ -9,12 +9,14 @@
       layout="total, sizes, prev, pager, next, jumper"
       :total="400"
     />
+    <Test> </Test>
   </div>
 </template>
 
 <script setup lang="ts">
 //引入图标组件
 import { Plus, Edit, Delete } from "@element-plus/icons-vue";
+import Test from "@/components/test.vue";
 </script>
 
 <style></style>
