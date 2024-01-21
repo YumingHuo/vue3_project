@@ -6,7 +6,7 @@ const allGlobalComponents: any = { svg_icon, Pagination };
 
 //对外暴露插件对象
 export default {
-  install(app) {
+  install(app: any) {
     Object.keys(allGlobalComponents).forEach((key) => {
       //注册为全局组件
       app.component(key, allGlobalComponents[key]);

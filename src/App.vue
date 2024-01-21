@@ -1,8 +1,7 @@
 <template>
   <div>
     <h1>svg 测试</h1>
-    <Pagination></Pagination>
-    <svg-icon name="phone"></svg-icon>
+
   </div>
 </template>
 
@@ -10,4 +9,12 @@
 
 </script>
 
-<style></style>
+<style scoped lang="scss">
+
+div {
+  h1 {
+    color: $base-color;
+  }
+}
+
+</style>
